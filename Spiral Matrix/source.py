@@ -4,7 +4,7 @@ def spiral_m(matrix):
     top = 0
     bottom = len(matrix)
     spiral_m  = []
-    # goes to right to left
+   
     while left< right and top < bottom :
         for i in range(left, right):
             spiral_m.append(matrix[top][i])
