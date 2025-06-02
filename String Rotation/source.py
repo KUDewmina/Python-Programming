@@ -1,11 +1,12 @@
 file = open("a.txt","r") 
 
 def Write(output):
-    file = open("b.txt","w")
+    output_file = open("b.txt","w")
     for line in output:
-        file.write(line+"\n")
+        output_file.write(line+"\n")
     else:
-        file.write("\n")
+        output_file.write("\n")
+    output_file.close()
 
 outputs = []
 def format(vals):
@@ -47,5 +48,6 @@ for index,line in enumerate(file):
         method,count,*values = line.strip().split()
         rotated = rotate(method,int(count),values)
         format(rotated)
+file.close()
 
 
