@@ -6,7 +6,8 @@ Find two lines that together with the x-axis form a container, such that the con
 Return the maximum amount of water a container can store.
 Notice that you may not slant the container.
 
-![Screenshot 2025-03-16 183931](https://github.com/user-attachments/assets/8fc63f26-1145-4e50-abe2-4a18dfd6a161)
+
+![423217753-8fc63f26-1145-4e50-abe2-4a18dfd6a161](https://github.com/user-attachments/assets/92434109-ebec-49d8-82e6-b7681cce2f4d)
 
 
 Initialize two pointers:
